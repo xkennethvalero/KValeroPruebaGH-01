@@ -42,7 +42,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38a861d4a23e44d29a964fa9517458e1, type: 3}
   m_Name: QrCodeTrackingFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: QR Code Tracking
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.qrcodetracking
@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd1a99ebd75e49d1bc4152cccc8e2550, type: 3}
   m_Name: HitTestingFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hit Testing
   version: 1.0.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.raycasting
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22ae41aadce15674187d35d57afdf758, type: 3}
   m_Name: CameraAccessFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Camera Access
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.cameraaccess
@@ -242,7 +242,6 @@ MonoBehaviour:
   - {fileID: 542661648165732464}
   - {fileID: -6803425924825632733}
   - {fileID: -890857069341322238}
-  - {fileID: 7716063761938327393}
   - {fileID: 1130749434867819595}
   - {fileID: 3920604179358846526}
   - {fileID: -4226660083715175983}
@@ -251,13 +250,8 @@ MonoBehaviour:
   - {fileID: 891981464159002181}
   - {fileID: 1992699256080608988}
   - {fileID: -2361231274277256020}
-  - {fileID: 5193199170777634628}
   m_renderMode: 1
-  m_autoColorSubmissionMode: 1
-  m_colorSubmissionModes:
-    m_List: 00000000
   m_depthSubmissionMode: 0
-  m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
 --- !u!114 &-4931215403604584078
@@ -333,7 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -468,7 +462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eb03d48a4e23493fba7b405178b6b3d, type: 3}
   m_Name: ImageTrackingFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Image Tracking
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.imagetracking
@@ -603,7 +597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d25b6c93e04925bb42da7f2fdf8027, type: 3}
   m_Name: SpacesMicrosoftMixedRealityMotionControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Microsoft Mixed Reality Motion Controller Profile
   version: 1.0.2
   featureIdInternal: com.unity.openxr.feature.input.microsoftmotioncontroller
@@ -645,37 +639,31 @@ MonoBehaviour:
   - {fileID: -4692474882583030707}
   - {fileID: 283076168083788098}
   - {fileID: -1597407851888281756}
-  - {fileID: -5514454232499012120}
   - {fileID: 5292930853186602282}
   - {fileID: 7163900751401519442}
+  - {fileID: -5514454232499012120}
   - {fileID: -6979191698906683511}
   - {fileID: 961115319467826999}
   - {fileID: -7697435077688992972}
   - {fileID: -2440632434505281494}
   - {fileID: -4931215403604584078}
   - {fileID: 3471240166387918333}
-  - {fileID: 2982165168175453766}
   - {fileID: -3711725625064290520}
   - {fileID: -1952498169175186192}
-  - {fileID: -409556887645776317}
   - {fileID: -5454813237132121027}
   - {fileID: -4524507041209100907}
   - {fileID: -4610072019393022235}
+  - {fileID: -2563252777305101510}
   - {fileID: 7635001169527650266}
   - {fileID: 3713435365860173071}
   - {fileID: 6997272128645972066}
   - {fileID: -8884045436007840950}
   - {fileID: 1297824071078203122}
+  - {fileID: -409556887645776317}
   - {fileID: 8237406531898191646}
   - {fileID: 1011064514777671475}
-  - {fileID: 2527848593040908329}
-  - {fileID: -2563252777305101510}
   m_renderMode: 1
-  m_autoColorSubmissionMode: 1
-  m_colorSubmissionModes:
-    m_List: 00000000
   m_depthSubmissionMode: 0
-  m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
 --- !u!114 &283076168083788098
@@ -770,7 +758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2479fa37ffc4a3c947342fe19e48b14, type: 3}
   m_Name: SpatialMeshingFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Spatial Meshing
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.sceneunderstanding
@@ -790,7 +778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a55e2f339a4744babb080d663cf37a2f, type: 3}
   m_Name: BaseRuntimeFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Base Runtime
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.base
@@ -885,6 +873,7 @@ MonoBehaviour:
   m_Name: XrPerformanceSettingsFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: XR Performance Settings
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.extension.performance_settings
@@ -905,6 +894,7 @@ MonoBehaviour:
   m_Name: MetaQuestTouchPlusControllerProfile Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
@@ -950,13 +940,10 @@ MonoBehaviour:
     enabled: 1
   forceRemoveInternetPermission: 0
   symmetricProjection: 0
-  foveatedRenderingApi: 0
   systemSplashScreen: {fileID: 0}
   optimizeBufferDiscards: 1
   lateLatchingMode: 0
   lateLatchingDebug: 0
-  optimizeMultiviewRenderRegions: 0
-  spacewarpMotionVectorTextureFormat: 0
 --- !u!114 &3713435365860173071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1051,6 +1038,7 @@ MonoBehaviour:
   m_Name: XrPerformanceSettingsFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: XR Performance Settings
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.extension.performance_settings
@@ -1110,7 +1098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dea66e4d7ae49b49f6af51ea3cf905e, type: 3}
   m_Name: PlaneDetectionFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Plane Detection
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.planedetection
@@ -1132,7 +1120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acc47cb09ff09f84886c3843083dc0ef, type: 3}
   m_Name: FoveatedRenderingFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Foveated Rendering
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.foveatedrendering
@@ -1175,6 +1163,7 @@ MonoBehaviour:
   m_Name: MetaQuestTouchPlusControllerProfile Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
@@ -1194,7 +1183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f28604357aa423280cce3487eaa981, type: 3}
   m_Name: SpatialAnchorsFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Spatial Anchors
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.spatialanchors
